@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" id="mail"><switch><g><path d="M80 12H16C9.373 12 4 17.373 4 24v48c0 6.627 5.373 12 12 12h64c6.627 0 12-5.373 12-12V24c0-6.627-5.373-12-12-12zm0 8c.462 0 .906.078 1.318.223L48 46.878 14.682 20.223A3.964 3.964 0 0 1 16 20h64zm0 56H16a4 4 0 0 1-4-4V28.322l33.501 26.801c.73.585 1.614.877 2.499.877s1.769-.292 2.499-.877L84 28.322V72a4 4 0 0 1-4 4z"></path></g></switch></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="40px" height="32px" version="1.1" id="mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 40" style="enable-background:new 0 0 50 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M43.1,0H6.8C3.1,0,0,3,0,6.7v26.7c0,3.7,3.1,6.7,6.8,6.7h36.3c3.8,0,6.8-3,6.8-6.7V6.7C49.9,3,46.8,0,43.1,0z
+		 M43.1,4.4c0.3,0,0.5,0.1,0.7,0.1L25,19.4L6.1,4.6c0.3-0.1,0.5-0.1,0.7-0.1L43.1,4.4L43.1,4.4z M43.1,35.6H6.8
+		c-1.2,0-2.2-1-2.2-2.2V9.1l19,14.9c0.4,0.3,0.9,0.5,1.4,0.5s1-0.2,1.4-0.5L45.3,9.1v24.3C45.4,34.6,44.4,35.6,43.1,35.6z"/>
+</g>
+</svg>
