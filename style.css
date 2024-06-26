@@ -5,54 +5,90 @@ body{
     color: white;
 }
 
+.header{
+    background-color: #202020;
+    padding: 1em;
+}
+
 .header-content{
-    background-color: #868586;
-    overflow: hidden;
+    display: flex;
+    gap: 2em;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.logo{
+    display: inline-flex;
+}
+
+
+.nav-left, .nav-right{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
-.header-content a.logo{
-    float:left;
+.nav-right {
+    margin-left: auto;
+}
+
+.nav-list-left, .nav-list-right{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list-left a, .nav-list-right a{
     color: white;
-    padding: 1em;
-    text-align: center;
     text-decoration: none;
 }
 
-.header-content a.left{
-    color: white;
-    padding: 1em;
-    text-align: center;
-    text-decoration: none;
+.nav-list-left a:hover, .nav-list-right a:hover{
+    color: #868586;
 }
 
-.header-content a.right {
-    color: white;
-    padding: 1em;
-    text-align: center;
-    text-decoration: none;
+.nav-left li, .nav-right li{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #333;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
-.div-logo{
-    margin:auto;
+.nav-right li.user-icon{
+    padding : 0;
+    border:0;
 }
 
-.right{
-    position: absolute;
-    margin-right: 10%;
-    right: 0;
+.nav-right li.register, .nav-right li.lang, .nav-left li:last-child{
+    border:0;
 }
 
-.left{
-    margin-left: 10%;
-    position: absolute;
+.nav-right li.lang{
+    padding-top:0;
+    padding-right:0;
+    padding-bottom:0;
 }
 
-.navbar a:hover{
-    color: #666666;
+.lang-button{
+    background-color:#3d3d3d; 
+    border-radius: 2px;  
+    color: white; 
+    padding: 5px; 
+    display: flex; 
+    gap: 0.5em; 
+    align-items: center;
+    border: 1px solid #555555;
+    
 }
+
+.lang-button:hover{
+    background-color: #525252;
+    border: 1px solid #686868;
+}
+
 
 #welcome{
     text-align: center;
@@ -64,7 +100,7 @@ body{
 
 .footer{
     display: flex;
-    background-color: #868586;
+    background-color: #868686;
     color: white;
     justify-content: center;
     align-items: center;
@@ -82,8 +118,11 @@ body{
     display: flex;
     align-items: center;
     gap: 2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-#copyright{
+.copyright{
     margin:0;
 }
