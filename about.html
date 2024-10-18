@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Giorgos Georgopetris">
-    <title>About | Georgopetris</title>
+    <title>About • Georgopetris</title>
     
     <link rel="icon" href="images/logo.svg" type="image/x-icon">
 
@@ -24,7 +24,7 @@
 
         <div class="header-content">
 
-            <a class="logo" href="index.html">
+            <a class="logo" href="index.html" title="Home">
                 <img src="images/logo.svg">
             </a>
             
@@ -34,24 +34,24 @@
 
                     <li>
 
-                        <a href="index.html">
-                            HOME
+                        <a href="projects.html" title="My Projects">
+                            <span class="navig">PROJECTS</span>
                         </a>
                         
                     </li>
 
                     <li>
 
-                        <a href="about.html">
-                            ABOUT
+                        <a href="about.html" title="About Me">
+                            <span class="navig">ABOUT</span>
                         </a>
                         
                     </li>
                     
                     <li>
 
-                        <a href="contact.html">
-                            CONTACT
+                        <a href="contact.html" title="Contact Me">
+                            <span class="navig">CONTACT</span>
                         </a>
                         
                     </li>
@@ -67,34 +67,27 @@
                     <li class="user-icon">
 
                         <a href="index.html">
-                            <i class="fa fa-fw fa-user"></i>
+                            <!--<i class="fa fa-fw fa-user"></i>-->
                         </a>
                         
                     </li>
 
-                    <li class="login">
-
-                        <a href="index.html">
-                            Log In 
-                        </a>
-                    
-                    </li>
-
                     <li class="register">
 
-                        <a href="index.html">
-                            Register
+                        <a class="register" href="register.html">
+                            Login / Register
                         </a>
                     
                     </li>
 
                     <li class="lang">
-                        
-                        <button class="lang-button">
+
+                        <button class="lang-button" title="Language">
                             <img src="images/EN.svg" style="display: flex;">
 
                             <i class="fa fa-angle-down"></i>
                         </button>
+
                     </li>
 
                 </ul>
@@ -117,23 +110,35 @@
 
         <div class="footer-content">
 
-            <div class="socials">
+            <ul class="socials">
+
+                <li>
             
-                <a id="instagram" href="https://www.instagram.com/georgopetris" target=_blank title="Find me on Instagram">
-                    <img src="images/ig.svg" alt="Instagram Profile">
-                </a>
+                    <a class="instagram" href="https://www.instagram.com/georgopetris" target=_blank title="Find me on Instagram">
+                        <img src="images/ig.svg" alt="Instagram Profile">
+                    </a>
+                
+                </li>
 
-                <a id="github" href="https://www.github.com/zizwrzhs" target=_blank title="Find me on GitHub">
-                    <img src="images/github.svg" alt="GitHub Profile">
-                </a>
+                <li>
 
-                <a id="email" href="mailto:georgopetrisg@gmail.com" target=_blank title="Email Me">
-                    <img src="images/email.svg" alt="Email Me">
-                </a>
+                    <a class="github" href="https://www.github.com/zizwrzhs" target=_blank title="Find me on GitHub">
+                        <img src="images/github.svg" alt="GitHub Profile">
+                    </a>
 
-            </div>
+                </li>
 
-            <p id="copyright">&copy; 2024 Giorgos Georgopetris. All rights reserved.</p>
+                <li>
+
+                    <a class="email" href="mailto:georgopetrisg@gmail.com" target=_blank title="Email Me">
+                        <img src="images/email.svg" alt="Email Me">
+                    </a>
+
+                </li>
+
+            </ul>
+            
+            <p class="copyright">&copy; 2024 Giorgos Georgopetris. All rights reserved.</p>
 
         </div>
 
