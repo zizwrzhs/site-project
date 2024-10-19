@@ -1,4 +1,4 @@
-body{
+    body{
     margin:0;
     font-family: "Open Sans", sans-serif;
     background-color: #333;
@@ -109,7 +109,7 @@ input[type=text], input[type=password]{
     font-size: 16px;
     width: 100%;
     padding: 0.5em;
-    border: 2px solid#1f232826;
+    border: 2px solid#0000006d;
     border-radius: 5px;
 }
 
